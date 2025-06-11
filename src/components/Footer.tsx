@@ -16,36 +16,34 @@ const Footer = () => {
               Professional gardening services in Pretoria. Transforming outdoor spaces 
               with affordable, reliable, and high-quality garden care solutions.
             </p>
-            <div className="text-gray-400">
-              <p>Stand No 228, Block BB, Soshanguve</p>
-              <p>Gauteng 0152, Pretoria, South Africa</p>
-            </div>
+          
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-garden-400 transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-garden-400 transition-colors">About</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-garden-400 transition-colors">Services</a></li>
-              <li><a href="#gallery" className="text-gray-400 hover:text-garden-400 transition-colors">Gallery</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-garden-400 transition-colors">Contact</a></li>
-            </ul>
-          </div>
+<div>
+  <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+  <ul className="grid grid-cols-2 gap-2">
+    <li>
+      <a href="#home" className="text-gray-400 hover:text-garden-400 transition-colors">Home</a>
+    </li>
+    <li>
+      <a href="#about" className="text-gray-400 hover:text-garden-400 transition-colors">About</a>
+    </li>
+    <li>
+      <a href="#services" className="text-gray-400 hover:text-garden-400 transition-colors">Services</a>
+    </li>
+    <li>
+      <a href="#gallery" className="text-gray-400 hover:text-garden-400 transition-colors">Gallery</a>
+    </li>
+    <li>
+      <a href="#contact" className="text-gray-400 hover:text-garden-400 transition-colors">Contact</a>
+    </li>
+  </ul>
+</div>
+
 
           {/* Services */}
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Our Services</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li>Garbage Collection</li>
-              <li>Tree Cutting & Pruning</li>
-              <li>Lawn Maintenance</li>
-              <li>Garden Design</li>
-              <li>Seasonal Cleanup</li>
-              <li>Landscaping</li>
-            </ul>
-          </div>
+        
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
