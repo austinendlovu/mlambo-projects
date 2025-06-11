@@ -1,0 +1,17 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#4CAF50" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- Letter M with integrated spade and leaf -->
+  <g transform="translate(32, 32)">
+    <!-- M shape -->
+    <path d="M-12 -15 L-12 12 L-6 12 L-6 -2 L0 8 L6 -2 L6 12 L12 12 L12 -15 L6 -15 L0 -5 L-6 -15 Z" 
+          fill="white"/>
+    
+    <!-- Spade blade -->
+    <path d="M-1 12 L1 12 L2 16 L0 18 L-2 16 Z" fill="white"/>
+    
+    <!-- Small leaf accent -->
+    <path d="M8 -12 Q12 -10 10 -6 Q8 -8 8 -12" fill="#81C784"/>
+  </g>
+</svg>
